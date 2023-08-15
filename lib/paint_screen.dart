@@ -80,7 +80,7 @@ class _PaintScreenState extends State<PaintScreen> {
 
   //socket io client connection
   void connect() {
-    _socket = IO.io('http://192.168.48.56:3000', <String, dynamic>{
+    _socket = IO.io('https://srkibbl-clone.onrender.com/', <String, dynamic>{
       'transports': ['websocket'],
       'autoConnect': false
     });
